@@ -13,8 +13,8 @@ Simple code overview
    EPD_2014.R example
    - Sections #2-4 build SQL API queries to pull single and multimonth antidepressant prescription data (British National Formulary code 0403) for all England postcodes (using 
      NHSBSA API query guidance on Github)
-   - Section #5 matches unique postcodes in the antidepressant prescription data with their respective local authorities and regions, adds census population estimates, and 
-     calculates per capita antidepressant prescription estimates (monthly)
+   - Sections #5 and #6 match unique postcodes in the antidepressant prescription data with their respective local authorities and regions, adds census population estimates, 
+     and calculate per capita antidepressant prescription estimates (monthly)
  
 - Section #3 reads, sorts and combines each annual file into a unified dataset (one for LA level and one for regional level)
 
